@@ -2,20 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-/*@font-face {
-  font-family: Inter;
-  src: url('../fonts/Inter-Regular.woff') format('woff'),
-       url('../fonts/Inter-Regular.woff2') format('woff2');
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Regular.woff') format('woff'),
+       url('../fonts/Raleway-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}*/
+}
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Medium.woff') format('woff'),
+       url('../fonts/Raleway-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/Raleway-SemiBold.woff') format('woff'),
+       url('../fonts/Raleway-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Bold.woff') format('woff'),
+       url('../fonts/Raleway-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 html, body{
+  font-family: Raleway;
   min-height:100%;
-}
-body{
-  background: #FFF;
+  font-weight: 400;
+  background: red;
 }
 *{
   box-sizing: border-box;
@@ -28,7 +52,6 @@ body{
   margin-left:auto;
   margin-right: auto;
   display: flex;
-  @apply appearance-none;
 }
 
 /*------animation-------*/

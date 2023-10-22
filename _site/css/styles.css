@@ -585,54 +585,12 @@ video {
   }
 }
 
-.static {
-  position: static;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .rounded {
   border-radius: 0.25rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .transition {
@@ -710,21 +668,59 @@ video {
   height: 16px;
 }
 
-/*@font-face {
-  font-family: Inter;
-  src: url('../fonts/Inter-Regular.woff') format('woff'),
-       url('../fonts/Inter-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}*/
+@font-face {
+  font-family: Raleway;
 
-html, body {
-  min-height: 100%;
+  src: url("../fonts/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway-Regular.woff2") format("woff2");
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  font-display: swap;
 }
 
-body {
-  background: #FFF;
+@font-face {
+  font-family: Raleway;
+
+  src: url("../fonts/Raleway-Medium.woff") format("woff"), url("../fonts/Raleway-Medium.woff2") format("woff2");
+
+  font-weight: 500;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Raleway;
+
+  src: url("../fonts/Raleway-SemiBold.woff") format("woff"), url("../fonts/Raleway-SemiBold.woff2") format("woff2");
+
+  font-weight: 600;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Raleway;
+
+  src: url("../fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold.woff2") format("woff2");
+
+  font-weight: 700;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+html, body {
+  font-family: Raleway;
+  min-height: 100%;
+  font-weight: 400;
+  background: red;
 }
 
 * {
@@ -739,9 +735,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
 }
 
 /*------animation-------*/
@@ -751,38 +744,5 @@ body {
 }
 
 /*-------bootstrap--------*/
-
-.focus\:bg-primary-blue-active:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 55 119 / var(--tw-bg-opacity));
-}
-
-.focus\:shadow-active:focus {
-  --tw-shadow: -8px 10px 20px 0px rgba(0, 0, 0, 0.50) inset;
-  --tw-shadow-colored: inset -8px 10px 20px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:bg-primary-blue-hover:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 80 189 / var(--tw-bg-opacity));
-}
-
-.hover\:shadow-hover:hover {
-  --tw-shadow: -8px 8px 20px 0px rgba(0, 0, 0, 0.50);
-  --tw-shadow-colored: -8px 8px 20px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.active\:bg-primary-blue-active:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 55 119 / var(--tw-bg-opacity));
-}
-
-.active\:shadow-active:active {
-  --tw-shadow: -8px 10px 20px 0px rgba(0, 0, 0, 0.50) inset;
-  --tw-shadow-colored: inset -8px 10px 20px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
 
 /*# sourceMappingURL=styles.css.map */
