@@ -5,8 +5,8 @@
     "scripts": {
     "watch:sass": "sass --watch css/main.scss:css/styles.css",
     "build:sass": "sass css/main.scss:css/styles.css",
-    "watch:tailwind": "npx tailwindcss -i css/styles.css -c tailwind.config.js -o _site/css/styles.css --watch",
-    "build:tailwind": "NODE_ENV=production npx tailwindcss -i css/styles.css -c tailwind.config.js -o _site/css/styles.css --minify",
+    "watch:tailwind": "npx tailwindcss -i css/styles.css -c tailwind.config.js -o css/styles.css css/styles.css --minify --watch",
+    "build:tailwind": "NODE_ENV=production npx tailwindcss -i css/styles.css -c tailwind.config.js -o css/styles.css --minify",
     "watch:astro": "astro",
     "build:astro": "astro",
     "preview": "astro preview",

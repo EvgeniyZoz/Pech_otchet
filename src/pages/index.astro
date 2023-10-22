@@ -5,16 +5,44 @@
 	<meta name="viewport" content="width=device-width" />
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 	<meta name="generator" content={Astro.generator} />
-	<title>index</title>
+	<title>Otchet</title>
+
+	<meta name="viewport" content="width=595">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<link rel="stylesheet" href="css/styles.css" />
 
 </head>
 
-<body>
-	Alert
-	<script is:inline src="js/script.js"></script>
+<body class="pb-10 pt-">
+	<header class="fixed inset-0 bottom-auto z-40 px-12 pt-7 flex items-center justify-between pb-2 border-b-5 border-primary">
+		<a href="#" class="flex items-center">
+			<div class="shrink-0 mr-2"><img src="img/logo.svg" width="34" height="34" alt=""></div>
+			<span class="text-xl uppercase font-bold">ХабПроверок.Ру</span>
+		</a>
+		<div class="text-secondary-gray text-xs font-semibold whitespace-nowrap">
+			Дело #172648465
+			<div class="uppercase">Назаров Сергей Алексеевич</div>
+		</div>
+	</header>
+	<div class="px-12 pt-24 flex justify-between">
+		<div class="flex-grow">
+			<div class="text-2xl font-bold uppercase">Назаров <br>Сергей Алексеевич</div>
+			<div class="text-secondary-gray uppercase">Комплексная проверка</div>
+		</div>
+		<div class="grid grid-cols-2 before:order-2 text-center grid-cols-auto">
+			<div class="font-bold uppercase text-xs order-1">Баллы оценки</div>
+			<div class="order-3 text-4.5xl text-secondary-yellow font-bold">
+				67
+			</div>
+			<div class="order-4 text-left text-xxs">
+				<div class="text-secondary-green mb-1.5">80 +</div>
+				<div class="text-secondary-yellow mb-1.5">80 - 55</div>
+				<div class="text-secondary-red">55 - 0</div>
+			</div>
+		</div>
+			
+	</div>
+	<!--<script is:inline src="js/script.js"></script>-->
 </body>
-
-
 </html>

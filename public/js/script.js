@@ -1,1 +1,1 @@
-alert('public')
+//alert()
