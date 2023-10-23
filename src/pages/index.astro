@@ -14,8 +14,8 @@
 
 </head>
 
-<body class="pb-10 pt-">
-	<header class="fixed inset-0 bottom-auto z-40 px-12 pt-7 flex items-center justify-between pb-2 border-b-5 border-primary">
+<body class="pb-10">
+	<header class="fixed bg-white inset-0 bottom-auto z-40 px-12 pt-7 flex items-center justify-between pb-2 border-b-5 border-primary">
 		<a href="#" class="flex items-center">
 			<div class="shrink-0 mr-2"><img src="img/logo.svg" width="34" height="34" alt=""></div>
 			<span class="text-xl uppercase font-bold">ХабПроверок.Ру</span>
@@ -25,23 +25,364 @@
 			<div class="uppercase">Назаров Сергей Алексеевич</div>
 		</div>
 	</header>
-	<div class="px-12 pt-24 flex justify-between">
-		<div class="flex-grow">
-			<div class="text-2xl font-bold uppercase">Назаров <br>Сергей Алексеевич</div>
-			<div class="text-secondary-gray uppercase">Комплексная проверка</div>
-		</div>
-		<div class="grid grid-cols-2 before:order-2 text-center grid-cols-auto">
-			<div class="font-bold uppercase text-xs order-1">Баллы оценки</div>
-			<div class="order-3 text-4.5xl text-secondary-yellow font-bold">
-				67
+	<div class="px-10 pt-24 justify-between">
+		<div class="mb-2 flex">
+			<div class="flex-grow">
+				<div class="text-2xl font-bold uppercase">Назаров <br>Сергей Алексеевич</div>
+				<div class="text-secondary-gray uppercase text-xs font-semibold">Комплексная проверка</div>
 			</div>
-			<div class="order-4 text-left text-xxs">
-				<div class="text-secondary-green mb-1.5">80 +</div>
-				<div class="text-secondary-yellow mb-1.5">80 - 55</div>
-				<div class="text-secondary-red">55 - 0</div>
-			</div>
+			<table class="ml-auto -mt-2">
+				<tr>
+					<td class="font-bold uppercase text-xs pr-2">Баллы оценки</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="text-4.5xl text-secondary-yellow font-bold pr-2 text-center"><div class="-mt-4">67</div></td>
+					<td class="text-xxs font-medium">
+						<div class="text-secondary-green mb-1.5 -mt-4">80 +</div>
+						<div class="text-secondary-yellow mb-1.5">80 - 55</div>
+						<div class="text-secondary-red">55 - 0</div>
+					</td>
+				</tr>
+			</table>
 		</div>
-			
+		<table class="w-full text-xs">
+			<tr class=" align-top">
+				<td class="border-t border-primary pt-4 pb-5 pr-4 uppercase font-bold align-top">
+					Анкета кандидата
+				</td>
+				<td class="border-t border-l border-primary pt-4 pb-5 pl-4">
+					<div class="border-b border-primary uppercase font-medium mb-2.5">Основная информация</div>
+					<div class="mb-2 flex items-baseline">
+						<span class="font-medium mr-1.5 uppercase whitespace-nowrap text-xxs">Дата рождения:</span>
+						<span class="text-xxs">01.01.2001</span>
+					</div>
+					<div class="mb-3 flex items-baseline">
+						<span class="font-medium mr-1.5 uppercase whitespace-nowrap text-xxs">Адрес проживания:</span>
+						<span class="text-xxs">г.Санкт-Петербург, проспект Славы, 30</span>
+					</div>
+					<div class="border-b border-primary uppercase font-medium mb-2.5">Номер документов</div>
+					<div class="mb-2 flex items-baseline">
+						<span class="font-medium mr-1.5 uppercase text-xxs">Паспорт:</span>
+						<span class="text-xxs">60 09 804010</span>
+					</div>
+					<div class="mb-3 flex items-baseline">
+						<span class="font-medium mr-1.5 uppercase text-xxs">ИНН:</span>
+						<span class="text-xxs">73737499</span>
+					</div>
+					<div class="border-b border-primary uppercase font-medium mb-2.5">Контактная информация</div>
+					<div class="mb-2 flex items-end">
+						<span class="font-medium mr-1.5 uppercase text-xxs">Телефон:</span>
+						<span class="text-xxs">+7 900 (800) 00 00</span>
+					</div>
+					<div class="flex items-end shrink-0">
+						<span class="font-medium mr-1.5 uppercase text-xxs">Электронная почта:</span>
+						<span class="text-xxs">AdminVasilev@mail.ru</span>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-5 pr-4 uppercase font-bold">
+					Проверка <br>благонадежности
+				</td>
+				<td class="border-l border-primary pb-5 pl-4">
+					<div class="border-b border-primary uppercase font-medium mb-2.5 flex justify-between items-end">
+						<span class="text-xxs">Выявлено</span>
+						<span class="shrink-0">
+							<img src="img/reject.svg" width="14" height="14" alt="">
+						</span>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-5 pr-4 uppercase font-bold">
+					РозАффилированность <br>с юридическими <br>лицамиыск
+				</td>
+				<td class="border-l border-primary pb-5 pl-4">
+					<div class="border-b border-primary uppercase font-medium mb-2.5 flex justify-between items-end">
+						<span class="text-xxs">ВОЗМОЖНО ПРИСУТСТВУЕТ</span>
+						<span class="shrink-0">
+							<img src="img/attention.svg" width="2" height="4" alt="">
+						</span>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-5 pr-4 uppercase font-bold">
+					Исполнительные <br>производства
+				</td>
+				<td class="border-l border-primary pb-5 pl-4">
+					<div class="border-b border-primary uppercase font-medium mb-2.5 flex justify-between items-end">
+						<span class="text-xxs">ВОЗМОЖНО ПРИСУТСТВУЕТ</span>
+						<span class="shrink-0">
+							<img src="img/attention.svg" width="2" height="4" alt="">
+						</span>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-6 pr-4 uppercase font-bold">
+					Кредитная история
+				</td>
+				<td class="border-l border-primary pb-6 pl-4">
+					<div class="border-b border-primary uppercase font-medium mb-7 flex justify-between">
+						<span>Статус банкрота</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Не выявлено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b border-primary uppercase font-medium mb-7 flex justify-between items-end">
+						<span>Исполнительные <br>
+							производства ФССП*</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Не выявлено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b border-primary uppercase font-medium mb-7 flex justify-between items-end">
+						<span>Задолженности <br>
+							по налогам</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">ВОЗМОЖНО ПРИСУТСТВУЕТ</span>
+							<span class="shrink-0">
+								<img src="img/attention.svg" width="2" height="4" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b border-primary uppercase font-medium flex justify-between items-end">
+						<div class="flex flex-grow items-end mr-2">
+							<span class="mr-4 whitespace-nowrap">Скоринговый балл</span>
+							<span class="text-xxs font-medium">863</span>
+						</div>
+						<div class="flex items-end shrink-0">
+							<span class="shrink-0">
+								<img src="img/reject.svg" width="14" height="14" alt="">
+							</span>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-5 pr-4 uppercase font-bold">
+					Собственность
+				</td>
+				<td class="border-l border-primary pb-5 pl-4">
+					<div class="border-b border-primary font-medium flex justify-between items-end">
+						<div class="flex flex-grow items-end mr-2">
+							<span class="mr-2 whitespace-nowrap uppercase text-xxs">Выявлено</span>
+							<span class="text-xxs font-medium">Собственость на жилплощадь</span>
+						</div>
+						<div class="flex items-end shrink-0">
+							<span class="shrink-0">
+								<img src="img/reject.svg" width="14" height="14" alt="">
+							</span>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-6 pr-4 uppercase font-bold">
+					Подлинность <br>документов
+				</td>
+				<td class="border-l border-primary pb-6 pl-4">
+					<div class="border-b border-primary uppercase font-medium flex justify-between">
+						<span>Действительность паспорта</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Подтверждено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-6 pr-4 uppercase font-bold">
+					Подлинность <br>номера телефона
+				</td>
+				<td class="border-l border-primary pb-6 pl-4">
+					<div class="border-b border-primary font-medium flex justify-between items-end">
+						<div class="flex flex-grow items-end mr-2">
+							<span class="mr-2 whitespace-nowrap uppercase text-xxs">Выявлено</span>
+							<span class="text-xxs font-medium">Номер подтвержден</span>
+						</div>
+						<div class="flex items-end shrink-0">
+							<span class="shrink-0">
+								<img src="img/reject.svg" width="14" height="14" alt="">
+							</span>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-6 pr-4 uppercase font-bold">
+					Иные телефонные <br>номера
+				</td>
+				<td class="border-l border-primary pb-6 pl-4">
+					<div class="border-b border-primary font-medium flex justify-between items-end">
+						<div class="flex flex-grow items-end mr-2">
+							<span class="mr-2 whitespace-nowrap uppercase text-xxs">Не Выявлено</span>
+						</div>
+						<div class="flex items-end shrink-0">
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-6 pr-4 uppercase font-bold">
+					Иные телефонные <br>номера
+				</td>
+				<td class="border-l border-primary pb-6 pl-4">
+					<div class="border-b mb-7 border-primary uppercase font-medium flex justify-between">
+						<span>Поиск в TrueCaller</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Выявлено</span>
+							<span class="shrink-0">
+								<img src="img/reject.svg" width="14" height="14" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b mb-7 border-primary uppercase font-medium flex justify-between">
+						<span>Поиск в EmobileTracker</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Не Выявлено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b mb-7 border-primary uppercase font-medium flex justify-between">
+						<span>Поиск телефона в NumBuster</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Выявлено</span>
+							<span class="shrink-0">
+								<img src="img/reject.svg" width="14" height="14" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b mb-16 border-primary uppercase font-medium flex justify-between">
+						<span>Поиск возможных имен 
+							в приложениях-определителях 
+							номеров
+							</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase whitespace-nowrap">Не Выявлено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="align-top">
+				<td class="pb-6 pr-4 uppercase font-bold">
+					Социальные <br>сети
+				</td>
+				<td class="border-l border-primary pb-6 pl-4">
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<div class="flex">
+							<span class="mr-1 uppercase">Вконтакте</span>
+							<div class="flex items-end shrink-0">
+								<span class="mr-1.5 text-xxs uppercase">Выявлено</span>
+								<span class="text-xxs mr-2">vk.com/msng.link</span>
+							</div>
+						</div>
+						<span class="shrink-0">
+							<img src="img/reject.svg" width="14" height="14" alt="">
+						</span>
+					</div>
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<span class="mr-1 uppercase">facebook</span>
+						<div class="uppercase font-medium flex justify-between items-end">
+							<span class="text-xxs mr-1.5">ВОЗМОЖНО ПРИСУТСТВУЕТ</span>
+							<span class="shrink-0">
+								<img src="img/attention.svg" width="2" height="4" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<div class="flex">
+							<span class="mr-1 uppercase">Одноклассники</span>
+							<div class="flex items-end shrink-0">
+								<span class="mr-1.5 text-xxs uppercase">Выявлено</span>
+								<span class="text-xxs mr-2">ok.com/msng.link</span>
+							</div>
+						</div>
+						<span class="shrink-0">
+							<img src="img/reject.svg" width="14" height="14" alt="">
+						</span>
+					</div>
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<span class="mr-1 uppercase">Instagram</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Не выявлено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<span class="mr-1 uppercase">Tinder</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Не выявлено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<div class="flex">
+							<span class="mr-1 uppercase">Telegram</span>
+							<div class="flex items-end shrink-0">
+								<span class="mr-1.5 text-xxs uppercase">Выявлено</span>
+								<span class="text-xxs mr-2">https://telegram.im/user</span>
+							</div>
+						</div>
+						<span class="shrink-0">
+							<img src="img/reject.svg" width="14" height="14" alt="">
+						</span>
+					</div>
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<div class="flex">
+							<span class="mr-1 uppercas w-16">Viber</span>
+							<div class="flex items-end shrink-0">
+								<span class="mr-1.5 text-xxs uppercase">Выявлено</span>
+								<span class="text-xxs mr-2">viber://msng.link</span>
+							</div>
+						</div>
+						<span class="shrink-0">
+							<img src="img/reject.svg" width="14" height="14" alt="">
+						</span>
+					</div>
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<span class="mr-1 uppercase">What's App</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Не выявлено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="border-b mb-4 border-primary font-medium flex justify-between">
+						<span class="mr-1 uppercase">Skype</span>
+						<div class="flex items-end shrink-0">
+							<span class="mr-1.5 text-xxs uppercase">Не выявлено</span>
+							<span class="shrink-0">
+								<img src="img/checked.svg" width="18" height="14" alt="">
+							</span>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
 	</div>
 	<!--<script is:inline src="js/script.js"></script>-->
 </body>
